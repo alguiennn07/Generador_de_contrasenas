@@ -1,4 +1,4 @@
-#generador de contraseñas
+
 import string
 from random import choices,shuffle,choice
 
@@ -15,8 +15,6 @@ while True:
        print(*todo,sep="")
     
     
-#Más simple:    
-"""length=12
-chars=string.ascii_letters+string.digits+string.punctuation
-password= "".join(choice(chars) for i in range(length))
-print(password)"""
+
+
+
