@@ -15,7 +15,7 @@ while True:
        print(*todo,sep="")
     
     
-#Más simple y fácil:    
+#Más simple:    
 """length=12
 chars=string.ascii_letters+string.digits+string.punctuation
 password= "".join(choice(chars) for i in range(length))
